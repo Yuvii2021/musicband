@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(1.jpg);
+    background-color: rgb(17, 15, 15);
+    overflow: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+
+.one{
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-right: 5%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.one .fa-solid{
+    padding: .5em;
+
+}
+.one p{
+    font-size: 50px;
+}
+.three{
+    margin-left: 10%;
+    margin-top: 20px;
+    color: white;
+}
+input[type=number]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=button]{
+    margin-top: 50px;
+    padding: 20px 50px;
+        background-color: lightblue;
+        color: black;
+        border: 2px solid lightblue;
+        
+  box-shadow: 5px 10px 8px #888888;
+      
+} 
+input[type=button] {
+    cursor: pointer;
+    border: 2px solid gray;
+    background-color: grey;}
+  input[type=submit]{
+    margin-top: 50px;
+    padding: 20px 50px;
+        background-color: lightblue;
+        color: black;
+        border: 2px solid lightblue;
+        
+  box-shadow: 5px 10px 8px #888888;
+      
+} 
+input[type=submit] {
+    cursor: pointer;
+    border: 2px solid gray;
+    background-color: grey;}
+#yo{
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+#yo:hover {
+    border: 2px solid green;
+    background-color: green;
+    color: black;
+    
+      }
+#yoyo{
+    margin-left: 58%;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+}
+#yoyo:hover {
+    border: 2px solid red;
+    background-color: red;
+    
+      }
+@media screen and (max-width: 700px){
+    #yo{
+        margin-left: 0;
+    }
+    #yoyo{
+        margin-left: 0;
+    }
+    #lolo{
+        margin-left: 0;
+    }
+    #outer
+{
+    margin-left: 10%;
+    display:block;
+}
+.inner{
+    margin-left: 0;
+}
+}
+.disc{
+    margin: 30px 10% 0;
+    color: red;
+    
+}
+#outer
+{
+    margin-left: 10%;
+}
+.inner
+{
+    display: inline-block;
+}
+#lolo{
+    margin-left: 10%;
+}
+@media screen and (max-width: 700px){
+    #outer{
+        margin-left: 10%;
+    }
+    #lolo{
+            margin-left: 0;
+        }
+        .one{
+            margin-left: 30%;
+            margin-top: 20px;
+            margin-right: 10%;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+        .one .fa-solid{
+            padding: .5em;
+        
+        }
+        .one p{
+            font-size: 30px;
+        }
+}
